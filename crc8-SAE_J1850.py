@@ -26,4 +26,4 @@ input = input.replace(" ", "")
 
 content = input
 data = bytearray.fromhex(content)
-print(hex(crc8_SAE_J1850(data))
+print(hex(crc8_SAE_J1850(data)))
